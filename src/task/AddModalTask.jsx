@@ -158,7 +158,7 @@ const AddModalTask = ({ onSave, taskToUpdate, onCloseClick }) => {
               <div className="space-y-3">
                 <label
                   htmlFor="priority"
-                  className="block text-sm font-semibold text-gray-300 flex items-center gap-2"
+                  className="text-sm font-semibold text-gray-300 flex items-center gap-2"
                 >
                   <FaFlag className="text-yellow-400 text-xs" />
                   Priority *
@@ -209,7 +209,7 @@ const AddModalTask = ({ onSave, taskToUpdate, onCloseClick }) => {
 
               {/* Favorite */}
               <div className="space-y-3">
-                <label className="block text-sm font-semibold text-gray-300 flex items-center gap-2">
+                <label className="text-sm font-semibold text-gray-300 flex items-center gap-2">
                   <FaStar className="text-yellow-400 text-xs" />
                   Favorite
                 </label>
