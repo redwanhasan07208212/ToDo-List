@@ -1,16 +1,115 @@
-# React + Vite
+🛠️ Technology Stack
+Frontend Framework: React 18.2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Styling: TailwindCSS 3.3.0
 
-Currently, two official plugins are available:
+Icons: React Icons (Font Awesome)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Notifications: React Toastify
 
-## React Compiler
+Build Tool: Create React App
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Usage Guide
+Adding a Task
+Click the "Add Task" button
 
-## Expanding the ESLint configuration
+Fill in the task details:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Title (required)
+
+Description (required)
+
+Tags (comma-separated)
+
+Priority level
+
+Favorite status
+
+Click "Add Task" to save
+
+Managing Tasks
+Edit: Click the edit button on any task
+
+Delete: Remove individual tasks or use "Delete All"
+
+Favorite: Click the star icon to mark important tasks
+
+Search: Use the search bar to filter tasks in real-time
+
+Priority Levels
+🔴 High - Critical tasks requiring immediate attention
+
+🟡 Medium - Important but not urgent tasks
+
+🟢 Low - Tasks that can be completed later
+
+🎨 Customization
+Tasker is built with customization in mind:
+
+Adding New Features
+The modular component structure makes it easy to extend functionality. Key components include:
+
+TaskBoard - Main container
+
+TaskList - Task display
+
+TaskActions - Bulk operations
+
+SearchTask - Filtering functionality
+
+AddModalTask - Task creation/editing
+
+🤝 Contributing
+We welcome contributions! Please follow these steps:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+Development Guidelines
+Follow React best practices
+
+Use meaningful component and variable names
+
+Maintain consistent styling with TailwindCSS
+
+Ensure responsiveness across devices
+
+Add appropriate error handling
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+🏆 Acknowledgments
+Icons provided by React Icons
+
+UI inspiration from modern design systems
+
+Gradient design patterns from contemporary web trends
+
+📞 Support
+If you encounter any issues or have questions:
+
+Check the Issues page
+
+Create a new issue with detailed information
+
+Contact the development team
+
+🌟 Why Choose Tasker?
+"Tasker has transformed how I manage my daily responsibilities. The beautiful interface makes task management enjoyable rather than chore-like." - Happy User
+
+Benefits
+✅ Increased Productivity - Streamlined workflow management
+
+✅ Reduced Stress - Clear organization reduces mental clutter
+
+✅ Better Focus - Priority system keeps you on track
+
+✅ Accessible Anywhere - Responsive design works on all devices
